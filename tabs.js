@@ -11,12 +11,4 @@ function scriptolTabs()
  }
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-  const toggleBtn = document.querySelector('.sidebar-toggle-btn');
-  const sidebar = document.querySelector('.sidebar');
-  const container = document.getElementById('container');
 
-  toggleBtn.addEventListener('click', function () {
-    container.classList.toggle('sidebar-hidden');
-  });
-});
