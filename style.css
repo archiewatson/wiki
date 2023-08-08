@@ -1314,35 +1314,6 @@ a.rsslink
   background-color: #fff;
 }
 
-/* 为按钮添加动画效果 */
-.sidebar-hidden .toggle-icon {
-  transform: translate(-50%, -50%) rotate(45deg);
-}
-
-/* 为按钮添加悬浮效果 */
-.sidebar-toggle-btn:hover {
-  background-color: #aaa;
-}
-
-	/* 默认情况下，侧边栏显示 */
-.sidebar {
-  display: block;
-  width: 300px; /* 设置侧边栏的宽度 */
-  float: left;
-}
-
-/* 当页面宽度小于某个阈值时，侧边栏隐藏 */
-@media screen and (max-width: 768px) {
-  .sidebar {
-    display: none;
-  }
-  
-  /* 如果隐藏按钮被点击，则显示侧边栏 */
-  .sidebar-hidden .sidebar {
-    display: block;
-  }
-}
-
 }
 
 
