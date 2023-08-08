@@ -23,7 +23,8 @@ wp_title();
 <div id="header">
   <div id="logo"  onclick="location.href='<?php echo home_url(); ?>/';">
       <?php bloginfo('name'); ?> <br>
-      <span class="sitedesc"><?php bloginfo('description'); ?></span>          
+      <span class="sitedesc"><?php bloginfo('description'); ?></span>       
+
           </div>  
   <div id="tabs"> 
    <ul>
@@ -31,3 +32,5 @@ wp_title();
    </ul>
   </div>
 </div>
+				</body>
+</html>
